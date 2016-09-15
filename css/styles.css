@@ -1,0 +1,39 @@
+*{
+   box-sizing: border-box;
+}
+
+img{
+   width: 100%;
+}
+
+body{
+   margin: 0 auto;
+   background: papayawhip;   /*change me pls*/
+   font-family: "Helevetica Neue", 'Helvetica', sans-serif;
+}
+
+#app-container{
+   max-width: 960px;
+   margin: 0 auto;
+   display: inline-block;
+}
+.column-container{
+   font-size: 0;
+
+}
+.column-container > *{
+   display: inline-block;
+   font-size: medium;
+   vertical-align: top;
+   width: 33.33%;
+
+}
+.updates-section > *{
+   width: 33.333%;
+   border: 5px solid #ddd;
+   padding: 8px;
+}
+.hours{
+   
+   width: auto;
+}
